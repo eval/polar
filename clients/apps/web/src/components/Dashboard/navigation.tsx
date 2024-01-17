@@ -139,7 +139,7 @@ export const backerRoutes = (
                 link: `/feed`,
                 icon: (
                   <AllInclusiveOutlined
-                    className="h-5 w-5"
+                    className="h-6 w-6"
                     fontSize="inherit"
                   />
                 ),
@@ -156,7 +156,7 @@ export const backerRoutes = (
                 title: 'Benefits',
                 link: `/benefits`,
                 icon: (
-                  <DiamondOutlined className="h-5 w-5" fontSize="inherit" />
+                  <DiamondOutlined className="h-6 w-6" fontSize="inherit" />
                 ),
                 postIcon: undefined,
                 if: true,
@@ -175,7 +175,7 @@ export const backerRoutes = (
         : isPersonal
           ? '/feed' // personal and old feed
           : `/maintainer/${org?.name}/funding`, // orgs
-    icon: <FavoriteBorderOutlined className="h-5 w-5" fontSize="inherit" />,
+    icon: <FavoriteBorderOutlined className="h-6 w-6" fontSize="inherit" />,
     postIcon: undefined,
     if: true,
     subs: undefined,
@@ -187,7 +187,7 @@ export const backerRoutes = (
           id: 'rewards',
           title: 'Rewards',
           link: `/finance/rewards`,
-          icon: <CardGiftcardOutlined className="h-5 w-5" fontSize="inherit" />,
+          icon: <CardGiftcardOutlined className="h-6 w-6" fontSize="inherit" />,
           postIcon: undefined,
           if: isPersonal,
           subs: undefined,
